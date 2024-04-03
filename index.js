@@ -16,7 +16,7 @@ const resolvers = {
     hello: (_, { message }) => {
         return `¡Hola, ${message}! Un saludo por parte del profe `;
       },
-    aboutLeninCarabali: () => {
+    aboutPaula: () => {
       return `Hola, soy Paula y me gusta el chocolate :)`;
     },
   },
