@@ -7,6 +7,9 @@ const typeDefs = gql`
   type Query {
     hello(message: String!): String
     aboutPaula: String
+    aboutJuanes: String
+    aboutYion: String
+    aboutIsabela: String
   }
 `;
 
