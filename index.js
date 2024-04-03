@@ -22,6 +22,9 @@ const resolvers = {
     aboutJuanes: () => {
       return `Hola, soy Juanes y me gustan los videojuegos :D`;
     },
+    aboutYion: () => {
+      return `Hola, soy Stefhania y me gustan las fresas con crema`;
+    },
   },
 };
 
