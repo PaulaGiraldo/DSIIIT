@@ -19,6 +19,9 @@ const resolvers = {
     aboutPaula: () => {
       return `Hola, soy Paula y me gusta el chocolate :)`;
     },
+    aboutJuanes: () => {
+      return `Hola, soy Juanes y me gustan los videojuegos :D`;
+    },
   },
 };
 
