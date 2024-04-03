@@ -10,6 +10,7 @@ const typeDefs = gql`
     aboutJuanes: String
     aboutYion: String
     aboutIsabela: String
+    aboutCristiank: String
   }
 `;
 
@@ -31,6 +32,9 @@ const resolvers = {
     aboutIsabela: () => {
       return `Hola, soy Isabela y me gusta dormir`;
     },
+    aboutCristiank: () => {
+      return 'Holi, soy cristian y me esta gustando una serie de abogados'
+    }
   },
 };
 
